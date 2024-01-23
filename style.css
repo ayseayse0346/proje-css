@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background:radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+header a img{
+width: 60px;
+
+padding: 1rem;
+}
+header .sign-in {
+    float: right;
+    padding-top: 2rem;
+    padding-right: 0.5rem;
+    color:#840606 ;
+}
+
+header .sign-in a{
+    color:#840606  ;
+    font-weight: 700;
+    text-decoration: none;
+}
+header .sign-in a:hover{
+    /* text-decoration: underline; */
+    border-bottom: 2px solid #840606 ;
+}
+
+nav.sticky{
+    background-image: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    padding: 2rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.sticky a{
+    text-decoration: none;
+   
+    color: black;
+    font-weight: 700;
+  font-family: 'Lilita One', sans-serif; 
+  margin-right: 0.8rem;
+
+}
+
+.sticky a:hover{
+    color: white;
+}
+nav.banner{
+    position: relative;
+}
+nav.banner img{
+    width: 100%;
+    max-height: calc(100vh-202px);
+}
+
+.hero{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.hero h2{
+    color: white;
+}
+
+.hero h3{
+    color: red;
+    font-size: 0.6rem;
+}
+
+.hero button{
+    border-radius: 10px;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    background-color: pink;
+}
+
+.hero button:hover{
+    cursor: pointer;
+    color: blueviolet;
+    opacity: ;
+}
+
+p{
+    text-align: justify;
+    font-size: 0.7rem;
+}
+
+
+
+i{
+    color: red;
+float: right;
+margin: 0px;
+
+position: fixed;
+right:10px;
+bottom: 20px;
+display: block;
+border: 2 px solid red;
+font-size: 40px;
+}
